@@ -3,17 +3,18 @@
 
 int factorialize(int n)
 {
-    int factorial = 1;
+    long long factorial = 1;
     for (int i = n; i > 0; i--)
     {
-        printf("%i\n", i);
         factorial *= i;
     }
-    printf("factorialize: %i\n", factorial);
+    printf("factorialize: %lld\n", factorial);
     return factorial;
 }
 
 int main(void)
 {
-    factorialize(5);
+    printf("enter a number: ");
+    int n = get_int();
+    factorialize(n);
 }
