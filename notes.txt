@@ -1,0 +1,54 @@
+Intermediate classathon 1:
+
+Create 4 functions to solve the following Algorithms:
+
+Recreate the following algorithms from Free Code Camp in C additional bonus if you use command line arguments to get the inputs.
+
+1.
+https://www.freecodecamp.org/challenges/factorialize-a-number
+Your function should return a long long and accept one int
+Function name: factorialize
+
+2.
+https://www.freecodecamp.org/challenges/sum-all-odd-fibonacci-numbers
+Your function should return an Int and accept one int
+Function name: sumFibs
+
+3.
+https://www.freecodecamp.org/challenges/sum-all-primes
+Your function should return an Int and accept one int.
+Function name: sumPrimes
+
+4.
+Create the following algorithm function:
+Should print a result then return an integer code
+Function name: strContains
+
+Inputs: 2 strings
+
+If the 2nd string does not exist inside the first stringz then print:
+“The string does not exist”
+Then return the integer 0
+If the 2nd string exists inside the first string print:
+“The string exists”
+Then return the integer 1
+Ignore case.
+Hacker level:
+If the string contains the word more than once print:
+“This string is full of the word”
+Then return the integer 2
+
+Sample tests:
+
+“endangered” “end” true
+“endangered” “danger” true
+“the dog sleeps in the dog house” “Jack” false
+“the dog sleeps in the dog house” “dog” true (hacker multiple)
+Hacker level 2: Confirm case
+“The dog sleeps in the dog house” “The” single true
+“The dog sleeps in the dog house” the” single true
+“The dog sleeps in the dog house” “dog” multi true
+
+Create a repo: Intermediate classathon 1
+Push these items to github and submit the repo link.
+25 minutes if you can look at your free code camp code. 40 minutes if not.
